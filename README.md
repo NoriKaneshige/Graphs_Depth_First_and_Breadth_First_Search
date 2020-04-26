@@ -5,7 +5,7 @@
 > ## iterative depth first search in Graphs: :laughing:
 > ## iterative breadth first search in Graphs: :octocat:
 
-
+``` js
 class Graph{
     constructor(){
         this.adjacencyList = {};
@@ -156,6 +156,10 @@ console.log(g.depthFirstRecursive("A")) // [ 'A', 'B', 'D', 'E', 'C', 'F' ]
 console.log(g.depthFirstIterative("A")) // [ 'A', 'C', 'E', 'F', 'D', 'B' ]
 console.log(g.breadthFirst("A")) // [ 'A', 'B', 'C', 'D', 'E', 'F' ]
 
-
-
-
+```
+![dfs_recursive_1](https://github.com/NoriKaneshige/Graphs_Depth_First_and_Breadth_First_Search/blob/master/dfs_recursive_1.png)
+![dfs_recursive_2](https://github.com/NoriKaneshige/Graphs_Depth_First_and_Breadth_First_Search/blob/master/dfs_recursive_2.png)
+![dfs_recursive_3](https://github.com/NoriKaneshige/Graphs_Depth_First_and_Breadth_First_Search/blob/master/dfs_recursive_3.png)
+![dfs_iterative_1](https://github.com/NoriKaneshige/Graphs_Depth_First_and_Breadth_First_Search/blob/master/dfs_iterative_1.png)
+![dfs_iterative_2](https://github.com/NoriKaneshige/Graphs_Depth_First_and_Breadth_First_Search/blob/master/dfs_iterative_2.png)
+![bfs](https://github.com/NoriKaneshige/Graphs_Depth_First_and_Breadth_First_Search/blob/master/bfs.png)
